@@ -81,6 +81,7 @@
 		1C5D9A882DFEAC75001BBB4F = {
 			isa = PBXGroup;
 			children = (
+				1C5D9AD62DFEB066001BBB4F /* Readme.md */,
 				1C5D9AA72DFEAC82001BBB4F /* TemplateMVVM */,
 				1C5D9A922DFEAC75001BBB4F /* Products */,
 			);
@@ -112,7 +113,6 @@
 				1C5D9ABE2DFEAD65001BBB4F /* Shared */,
 				1C5D9AB32DFEAD0A001BBB4F /* Core */,
 				1C5D9AC52DFEAE13001BBB4F /* DesignSystem */,
-				1C5D9AD62DFEB066001BBB4F /* Readme.md */,
 			);
 			path = TemplateMVVM;
 			sourceTree = "<group>";
