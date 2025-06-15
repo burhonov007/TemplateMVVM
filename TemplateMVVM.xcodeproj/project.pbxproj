@@ -51,7 +51,7 @@
 		1C5D9AD02DFEAE99001BBB4F /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
 		1C5D9AD22DFEAEA2001BBB4F /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		1C5D9AD42DFEAEAA001BBB4F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		1C5D9AD62DFEB066001BBB4F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		1C5D9AD62DFEB066001BBB4F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		1C5D9ADA2DFEB62D001BBB4F /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		1C5D9ADC2DFEB635001BBB4F /* DeviceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		1C5D9ADE2DFEB63E001BBB4F /* DebugUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugUtils.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				1C5D9AC52DFEAE13001BBB4F /* DesignSystem */,
 			);
 			path = TemplateMVVM;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9AAC2DFEAC90001BBB4F /* Mock */ = {
 			isa = PBXGroup;
@@ -133,8 +133,9 @@
 				1C5D9AA42DFEAC82001BBB4F /* Assets.xcassets */,
 				1C5D9AB12DFEACD0001BBB4F /* Launch Screen.storyboard */,
 			);
-			path = Resources;
-			sourceTree = "<group>";
+			name = Resources;
+			path = TemplateMVVM/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9AAE2DFEACA4001BBB4F /* Fonts */ = {
 			isa = PBXGroup;
@@ -152,8 +153,9 @@
 				1C5D9AB42DFEAD16001BBB4F /* Environment */,
 				1C5D9AC32DFEAD8C001BBB4F /* Extensions */,
 			);
-			path = Core;
-			sourceTree = "<group>";
+			name = Core;
+			path = TemplateMVVM/Core;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9AB42DFEAD16001BBB4F /* Environment */ = {
 			isa = PBXGroup;
@@ -189,16 +191,18 @@
 				1C5D9AA52DFEAC82001BBB4F /* ContentView.swift */,
 				1C5D9AA62DFEAC82001BBB4F /* TemplateMVVMApp.swift */,
 			);
-			path = App;
-			sourceTree = "<group>";
+			name = App;
+			path = TemplateMVVM/App;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9AB92DFEAD44001BBB4F /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				1C5D9ABA2DFEAD49001BBB4F /* Home */,
 			);
-			path = Features;
-			sourceTree = "<group>";
+			name = Features;
+			path = TemplateMVVM/Features;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9ABA2DFEAD49001BBB4F /* Home */ = {
 			isa = PBXGroup;
@@ -240,8 +244,9 @@
 				1C5D9AD82DFEB5E1001BBB4F /* Utils */,
 				1C5D9AE82DFEB7A6001BBB4F /* Constants */,
 			);
-			path = Shared;
-			sourceTree = "<group>";
+			name = Shared;
+			path = TemplateMVVM/Shared;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9ABF2DFEAD6C001BBB4F /* Loaders */ = {
 			isa = PBXGroup;
@@ -290,8 +295,9 @@
 				1C5D9AD22DFEAEA2001BBB4F /* Typography.swift */,
 				1C5D9AD42DFEAEAA001BBB4F /* Theme.swift */,
 			);
-			path = DesignSystem;
-			sourceTree = "<group>";
+			name = DesignSystem;
+			path = TemplateMVVM/DesignSystem;
+			sourceTree = SOURCE_ROOT;
 		};
 		1C5D9AD82DFEB5E1001BBB4F /* Utils */ = {
 			isa = PBXGroup;
