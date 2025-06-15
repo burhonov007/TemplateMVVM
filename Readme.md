@@ -89,13 +89,13 @@
 ## 🚀 Как начать
 #### 1. Клонировать репозиторий вручную
 ```
-    git clone https://github.com/burhonov007/TemplateMVVM.git
+git clone https://github.com/burhonov007/TemplateMVVM.git
 ```
 ```
-    cd TemplateMVVM
+cd TemplateMVVM
 ```
 ```
-    open TemplateMVVM.xcodeproj
+open TemplateMVVM.xcodeproj
 ```
 
 #### 2. Или использовать как шаблон GitHub
@@ -127,5 +127,3 @@ open YourProject.xcodeproj
 
 ## 📄 Лицензия
 Проект лицензирован под MIT — свободно используй, копируй, кастомизируй.
-
----
