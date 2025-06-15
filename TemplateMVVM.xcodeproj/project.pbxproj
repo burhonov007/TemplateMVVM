@@ -34,6 +34,9 @@
 		1C5D9AF02DFEB7F2001BBB4F /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AEF2DFEB7F2001BBB4F /* UserDefaultsKeys.swift */; };
 		1C5D9AF22DFEB7FA001BBB4F /* RegexPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AF12DFEB7FA001BBB4F /* RegexPatterns.swift */; };
 		1C5D9AF42DFEB800001BBB4F /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AF32DFEB800001BBB4F /* ErrorMessages.swift */; };
+		1C5D9AF62DFEC6C1001BBB4F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AF52DFEC6C1001BBB4F /* Home.swift */; };
+		1C5D9AF82DFEC6C8001BBB4F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AF72DFEC6C8001BBB4F /* HomeViewModel.swift */; };
+		1C5D9AFA2DFEC6D0001BBB4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5D9AF92DFEC6D0001BBB4F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		1C5D9AEF2DFEB7F2001BBB4F /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		1C5D9AF12DFEB7FA001BBB4F /* RegexPatterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexPatterns.swift; sourceTree = "<group>"; };
 		1C5D9AF32DFEB800001BBB4F /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		1C5D9AF52DFEC6C1001BBB4F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1C5D9AF72DFEC6C8001BBB4F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1C5D9AF92DFEC6D0001BBB4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +223,7 @@
 		1C5D9ABB2DFEAD4F001BBB4F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C5D9AF92DFEC6D0001BBB4F /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 		1C5D9ABC2DFEAD54001BBB4F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1C5D9AF72DFEC6C8001BBB4F /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 		1C5D9ABD2DFEAD59001BBB4F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1C5D9AF52DFEC6C1001BBB4F /* Home.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -404,6 +413,7 @@
 				1C5D9AF22DFEB7FA001BBB4F /* RegexPatterns.swift in Sources */,
 				1C5D9AEC2DFEB7C9001BBB4F /* AppConstants.swift in Sources */,
 				1C5D9AF02DFEB7F2001BBB4F /* UserDefaultsKeys.swift in Sources */,
+				1C5D9AF82DFEC6C8001BBB4F /* HomeViewModel.swift in Sources */,
 				1C5D9ADB2DFEB62D001BBB4F /* DateUtils.swift in Sources */,
 				1C5D9AF42DFEB800001BBB4F /* ErrorMessages.swift in Sources */,
 				1C5D9ADD2DFEB635001BBB4F /* DeviceUtils.swift in Sources */,
@@ -415,6 +425,7 @@
 				1C5D9ADF2DFEB63E001BBB4F /* DebugUtils.swift in Sources */,
 				1C5D9AAA2DFEAC82001BBB4F /* ContentView.swift in Sources */,
 				1C5D9ACD2DFEAE8B001BBB4F /* Icons.swift in Sources */,
+				1C5D9AFA2DFEC6D0001BBB4F /* HomeView.swift in Sources */,
 				1C5D9AE52DFEB659001BBB4F /* PermissionsManager.swift in Sources */,
 				1C5D9ACB2DFEAE82001BBB4F /* Spacing.swift in Sources */,
 				1C5D9AE72DFEB661001BBB4F /* Validator.swift in Sources */,
@@ -423,6 +434,7 @@
 				1C5D9AD52DFEAEAA001BBB4F /* Theme.swift in Sources */,
 				1C5D9AEE2DFEB7D0001BBB4F /* NotificationNames.swift in Sources */,
 				1C5D9AD32DFEAEA2001BBB4F /* Typography.swift in Sources */,
+				1C5D9AF62DFEC6C1001BBB4F /* Home.swift in Sources */,
 				1C5D9AAB2DFEAC82001BBB4F /* TemplateMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
